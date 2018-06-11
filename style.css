@@ -1,0 +1,84 @@
+/* coded by Dibakar */
+
+html,body{
+  font-family: monospace, Arial;
+  text-align: center;
+  min-width: 260px;
+  color: black;
+}
+#main{
+  margin: 30px auto;
+  padding: 15px;
+  border: 0px solid;
+  border-radius: 5px;
+  background: rgba(255, 0, 0, 0.50);
+}
+h1,h2,h3{ text-transform: uppercase; }
+h1{ font-weight: bolder; }
+h2{
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 16px;
+  background: #333;
+  color: whitesmoke;
+  display: inline-block;
+  padding: 5px;
+}
+#main p {
+  color: whitesmoke;
+  font-weight: bold;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+#img-div {
+  margin: -5px;
+  margin-top: 20px;
+  width: 100%;
+  border: 5px solid black;
+  background: black;
+}
+#img-caption {
+  margin: 15px;
+  color: whitesmoke;
+}
+#heading {
+  margin-top: 50px;
+  text-align: left;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+}
+li { margin: 10px;
+     color: whitesmoke;
+     text-align: justify;
+}
+strong {
+  display: inline-block;
+  background: #333;
+  color: whitesmoke;
+  font-weight: bolder;
+  padding: 8px;
+}
+li b { 
+  background: whitesmoke;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+#see-more {
+  display: inline-block;
+  background: #333;
+  color: whitesmoke;
+}
+footer {
+  font-size: 10px;
+  color: #333;
+}
